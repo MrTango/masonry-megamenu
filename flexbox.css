@@ -1,0 +1,24 @@
+.menu {
+  position: relative;
+  width: 90%;
+  background-color: beige;
+  display: flex;
+  gap: 1rem;
+}
+.submenu {
+  background-color: beige;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  padding: 0.2rem 0.5rem;
+  margin-top: 1rem;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  max-width: 100%
+}
+li {
+  flex-shrink: 0;
+  display: inline-block;
+  background-color: cadetblue;
+}
